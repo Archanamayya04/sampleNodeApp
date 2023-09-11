@@ -1,0 +1,38 @@
+{
+  "name": "em-link-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo Hello! em-link-nodejs"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "8.2.0",
+    "errorhandler": "1.5.1",
+    "express": "4.17.1",
+    "express-validator": "^5.3.0",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "5.9.12",
+    "mylogger": "^1.1.5",
+    "redis": "^4.6.4",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://basavaraja_kumbar@bitbucket.org/sendclean_inc/em-suppression-api.git"
+  },
+  "author": "basavaraja@sendclean.com",
+  "bugs": {
+    "url": "https://bitbucket.org/sendclean_inc/em-suppression-api/issues"
+  },
+  "homepage": "https://bitbucket.org/sendclean_inc/em-suppression-api#readme",
+  "license": "ISC"
+}
